@@ -24,7 +24,7 @@ namespace Vote
             {
                 Console.WriteLine($"Sorry {name}\nyou are not eligible for voting");
             }
-            Console.ReadKey();
+            Console.ReadKey()
         }
     }
 }
