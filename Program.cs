@@ -16,7 +16,7 @@ namespace Vote
                 name = Console.ReadLine();
             Console.WriteLine("Enter your age :");
             int age=int.Parse(Console.ReadLine());
-            if(age>=18)
+            if(age>=20)
             {
                 Console.WriteLine($"{name}, you are eligible for voting");
             }
